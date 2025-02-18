@@ -1,3 +1,4 @@
+from abc import ABC
 from typing import Tuple, Callable, List, Dict, Any
 
 import torch
@@ -56,12 +57,12 @@ def get_inputs_from_processor(
     return inputs
 
 
-class BaseLLMModel:
+class BaseLLMModel(ABC):
     def invoke(self, input_message: Dict[str, Any]) -> List[str]:
-        return ["hi"]
+        pass
 
     def batch(self, input_messages: List[Dict[str, Any]]) -> List[str]:
-        return ["hi" for _ in input_messages]
+        pass
 
 
 class LLMModel(BaseLLMModel):

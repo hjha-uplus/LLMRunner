@@ -21,7 +21,6 @@ def decode_image(encoded_string: str) -> Image:
 
 
 def messages_to_serialiable_data(messages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    messages = [message for message in messages] * 5
     return [
         {
             "role": message["role"],
