@@ -1,0 +1,11 @@
+wandb==0.19.6
+tensorboardX==2.6.2.2
+accelerate==1.4.0
+safetensors==0.5.2
+qwen-vl-utils==0.0.10
+flash_attn==2.7.4.post1  # uninstall and install
+optree==0.14.0
+autoawq==0.2.8
+pytest==8.3.4
+uvicorn==0.34.0
+fastapi==0.115.8
