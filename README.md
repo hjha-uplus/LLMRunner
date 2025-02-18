@@ -7,11 +7,17 @@
 * python >= 3.11
 
 ### Install
-```
-sh pre.sh
-. ~/.bashrc
-sh requirements.sh
-```
+* Debian
+    * check [pre.sh](pre.sh)
+    ```
+    sh pre.sh
+    . ~/.bashrc
+    sh requirements.sh
+    ```
+* Ubuntu
+    ```
+    sh requirements.sh
+    ```
 
 ## Run server
 ```
